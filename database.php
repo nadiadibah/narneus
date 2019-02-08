@@ -4,12 +4,12 @@ Web Name: English Language PPDK
 Author: Nadia Adibah bt Rajab
 ====================================== -->
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "mysql4.gear.host";
+$username = "narneus";
+$password = "Kn06L1F-x6J-";
 
 try {
-    $conn = new PDO("mysql:host=$servername;dbname=iportal", $username, $password);
+    $conn = new PDO("mysql:host=$servername;dbname=narneus", $username, $password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
    
