@@ -9,7 +9,7 @@ include "database.php";
 if(isset($_POST["submit"])){   
     
     $user=$_POST['username'];
-    $pass=md5($_POST['password']);
+    $pass=($_POST['password']);
 
     $login = $conn->prepare("SELECT * FROM users WHERE username=:user AND password=:pass");
  	$login->bindParam(':user', $_POST['username']);
