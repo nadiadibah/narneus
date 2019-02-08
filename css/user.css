@@ -1,0 +1,43 @@
+
+
+        .btns {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            display: block;
+            color: black;
+        }
+
+        .btns:hover {
+            color:black;
+            background-color: white;
+        }
+        
+        .btns:active {
+            color:black;
+            background-color: white;
+        }
+        .btns:selected {
+            color:black;
+            background-color: white;
+        }
+
+        .main {
+            margin-left: 160px; /* Same as the width of the sidenav */
+            padding: 0px 10px;
+            padding-bottom: 10%;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidebar {padding-top: 15px;}
+            .sidebar a {font-size: 14px;}
+        }
+        
+         h2 {
+           font-weight: bolder;
+           text-align: center;
+        }
+
+        .container-fluid{
+        font-size: 14px;
+    }
